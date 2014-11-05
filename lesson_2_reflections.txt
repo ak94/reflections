@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When we initialize a repo, that repo comes under version control.
+	In order to make our repo, vc , we uses git init 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	
+	staging directory holds file to commited as a bunch , working directory contains all files. 
+	offers-
+			when commiting all changed files should not be commited together , or not all separate
+			so , staging area provides to club files to be commited as a whole together.
+
+	staging directory and repository is different as repo contains commited version and staging area contains to be commited , they can reset too .
