@@ -11,3 +11,30 @@ How is the staging area different from the working directory and the repository?
 			so , staging area provides to club files to be commited as a whole together.
 
 	staging directory and repository is different as repo contains commited version and staging area contains to be commited , they can reset too .
+
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	use "git diff" to track what are being commited . This compares working directory and staging directory.
+
+	use "git diff --staged" to compare repo and staging area. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	branch just helps us to continue what we think to do with code, without effecting the original.
+	bringing out changes in some project as your own way ,to do this you can branch out and then merge it with org if you want to.
+
+How do the diagrams help you visualize the branch structure?
+	
+		Gives clear view of all branches and commits
+		Helps to understand
+		makes thinking of branches easier
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	
+	pros - 
+		Save ton of time
+		add all elements from original and common to both
+		Identify merge conflict 
+
+	cons-
+		not really
